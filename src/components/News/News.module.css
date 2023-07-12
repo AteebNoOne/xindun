@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    align-items: center;
+    background: black;
+    width: 100%;
+    height: 5%;
+}
+
+
+.paragraph {
+    color: white;
+    overflow: hidden;
+
+    animation: moveToLeft 5s linear infinite;
+    margin-top: 0.5rem;
+}
+
+@keyframes moveToLeft {
+    0% {
+        transform: translateX(100%);
+    }
+
+    70% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        opacity: 0;
+        color: blue;
+        transform: translateX(-100%);
+    }
+}
+
+
+@media (max-width: 400px) {
+    .icon {
+        height: 20pt;
+    }
+}

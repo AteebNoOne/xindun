@@ -1,0 +1,58 @@
+.header {
+  position: sticky;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  background-color: #282c34;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.verticalLine {
+  width: 1%;
+  height: 40pt;
+  background-color: yellow;
+  border-top-right-radius: 20pt; /* Adjust the value to control the curvature */
+  border-bottom-right-radius: 20pt; /* Adjust the value to control the curvature */
+}
+
+
+
+.logo {
+  width: 60%;
+  max-width: 400pt;
+  margin: 0 -30pt;
+}
+
+.text-white {
+  color: white;
+}
+
+
+.heading {
+  font-size: 1.4rem;
+  margin-bottom: 0.2rem;
+  text-align: right;
+  margin-right: 1rem;
+}
+
+.paragraph {
+  font-size: 1rem;
+  margin-bottom: 0rem;
+  margin-right: 1rem;
+}
+
+@media (max-width: 400px) {
+  .logo {
+    margin: 0 -10pt;
+  }
+  .heading {
+    font-size: 1.2rem;
+  }
+
+  .paragraph {
+    font-size: 0.9rem;
+    margin-bottom: 0rem;
+  }
+}
