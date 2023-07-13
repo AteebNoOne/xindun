@@ -1,0 +1,49 @@
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .buttons-container button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .buttons-container button svg {
+    margin-bottom: 5px;
+  }
+  
+  .singlebtn {
+    display: block;
+  }
+  
+  span {
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 600px) {
+    .buttons-container{
+        margin-top: 110pt;
+    }
+    .buttons-container button svg {
+      width: 32pt;
+      height: 32pt;
+      margin-left: 7pt;
+    }
+  
+    .buttons-container button span {
+        text-align: center;
+      font-size: 12px;
+    }
+  }
+  

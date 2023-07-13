@@ -46,10 +46,11 @@
 .rocketGif{
     width: 270pt;
     height: 150pt;
+    margin-left: 3%;
 }
 .heading {
     margin-top: -130pt;
-    margin-left: 10pt;
+    margin-left: 15pt;
     font-size: 24px;
 }
 
