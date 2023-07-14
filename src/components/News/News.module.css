@@ -34,6 +34,9 @@
 
 @media (max-width: 400px) {
     .icon {
-        height: 20pt;
+        height: 24pt;
+        z-index: 10;
+        margin-left: 10px;
+        margin-bottom: 4px;
     }
 }

@@ -1,6 +1,6 @@
 .buttons-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     text-align: center;
   }
@@ -17,7 +17,7 @@
   }
   
   .buttons-container button svg {
-    margin-bottom: 5px;
+    /* margin-bottom: 5px; */
   }
   
   .singlebtn {
@@ -33,12 +33,23 @@
   /* Media queries for responsiveness */
   @media (max-width: 600px) {
     .buttons-container{
-        margin-top: 110pt;
+      width: 96%;
+        margin-top: 130pt;
+    }
+    .singlebtn button{
+      width: 60px;
+      height: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      margin-bottom:6px;
+
     }
     .buttons-container button svg {
-      width: 32pt;
-      height: 32pt;
-      margin-left: 7pt;
+      width: 24pt;
+      height: 24pt;
+      /* margin-left: 7pt; */
     }
   
     .buttons-container button span {

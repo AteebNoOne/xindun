@@ -4,7 +4,7 @@ import styles from './Header.module.css';
 
 const Header = () => {
   return (
-    <header className={`bg-black d-flex align-items-center py-2 ${styles.header}`}>
+    <header className={`bg-black d-flex align-items-center ${styles.header}`}>
       <div className={`${styles.verticalLine} `} />
       <img src={logo} alt="Logo" className={`${styles.logo} ${styles.logo}`} />
       <div className={`ms-auto ${styles.textWhite}`}>

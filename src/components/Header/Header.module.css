@@ -7,10 +7,11 @@
   background-color: #282c34;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 40px 6px 40px 0px;
 }
 
 .verticalLine {
-  width: 1%;
+  width: 8px;
   height: 40pt;
   background-color: yellow;
   border-top-right-radius: 20pt; /* Adjust the value to control the curvature */
@@ -21,8 +22,11 @@
 
 .logo {
   width: 60%;
+  height:150px;
   max-width: 400pt;
   margin: 0 -30pt;
+  margin-bottom: 20px;
+  object-fit: contain;
 }
 
 .text-white {
@@ -44,11 +48,14 @@
 }
 
 @media (max-width: 400px) {
+  
   .logo {
     margin: 0 -10pt;
+    margin-bottom: 10px;
   }
   .heading {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    margin-bottom: 0px;
   }
 
   .paragraph {

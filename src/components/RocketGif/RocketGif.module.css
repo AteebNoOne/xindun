@@ -9,7 +9,7 @@
     text-align: left;
     margin-top: -420pt;
     color: white;
-    font-size: 24px;
+    font-size: 28px;
 }
 
 .gifContainer {
@@ -25,7 +25,7 @@
 
 .textContainer {
     position: absolute;
-    bottom: 10px;
+    bottom: 0px;
     left: 10px;
     padding: 10px;
 }
@@ -51,19 +51,23 @@
 .heading {
     margin-top: -140pt;
     margin-left: 15pt;
-    font-size: 24px;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.733);
+
 }
 
 .paragraph {
     margin-top: -260pt;
     color: #ffffff;
-    font-size: 12px;
+    font-size: 14px;
     text-align: left;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.733);
+
 }
 
 .subHeading {
     color: #ffffff;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bolder;
     margin-top: -20pt;
     margin-left: -10pt;
